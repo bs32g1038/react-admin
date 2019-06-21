@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { matchRoutes } from "react-router-config";
+import React from './node_modules/react';
+import { Link } from './node_modules/react-router-dom';
+import { matchRoutes } from "./node_modules/react-router-config";
 
 const itemRender = (route, params, routes, paths) => {
     const last = routes.indexOf(route) === routes.length - 1;
