@@ -1,6 +1,6 @@
-import React from './node_modules/react';
-import { PageHeader, Tabs, Typography } from './node_modules/antd';
-import classNames from './node_modules/classnames';
+import React from 'react';
+import { PageHeader, Tabs, Typography } from 'antd';
+import classNames from 'classnames';
 import GridContent from './GridContent';
 import styles from './index.module.scss';
 import { generateBreadcrumbList } from './breadcrumb';
