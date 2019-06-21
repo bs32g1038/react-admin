@@ -4,7 +4,7 @@
 
 这是一个后台布局项目，并没有额外的组件，列如ant design pro的图表组件等等。
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad221db6-f3d9-451a-a75a-0d30f389ea07/deploy-status)](https://app.netlify.com/sites/nostalgic-mirzakhani-0c279c/deploys) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/cf628880ad03485e95617e8ab6c016b4)](https://app.codacy.com/app/bs32g1038/react-admin-kit?utm_source=github.com&utm_medium=referral&utm_content=bs32g1038/react-admin-kit&utm_campaign=Badge_Grade_Settings) ![David](https://img.shields.io/david/dev/bs32g1038/react-admin-kit.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad221db6-f3d9-451a-a75a-0d30f389ea07/deploy-status)](https://app.netlify.com/sites/nostalgic-mirzakhani-0c279c/deploys) [![Total alerts](https://img.shields.io/lgtm/alerts/g/bs32g1038/react-admin-kit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bs32g1038/react-admin-kit/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/bs32g1038/react-admin-kit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bs32g1038/react-admin-kit/context:javascript) ![David](https://img.shields.io/david/dev/bs32g1038/react-admin-kit.svg)
 
 * Preview: http://pro.lizc.me
 
