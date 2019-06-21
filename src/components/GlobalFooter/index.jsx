@@ -7,13 +7,13 @@ const links = [
     {
         key: 'Pro 首页',
         title: 'Pro 首页',
-        href: 'https://pro.ant.design',
+        href: 'http://pro.lizc.me',
         blankTarget: true,
     },
     {
         key: 'github',
         title: <Icon type="github" />,
-        href: 'https://github.com/ant-design/ant-design-pro',
+        href: 'https://github.com/bs32g1038/react-admin-kit',
         blankTarget: true,
     },
     {
@@ -26,7 +26,7 @@ const links = [
 
 const copyright = (
     <Fragment>
-        Copyright <Icon type="copyright" /> 2019 星点阅读体验技术部出品
+        Copyright <Icon type="copyright" /> 2019 bs32g1038@163.com 体验技术部出品
     </Fragment>
 )
 
