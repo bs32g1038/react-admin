@@ -1,6 +1,6 @@
-import React, { PureComponent } from './node_modules/react';
-import { Dropdown } from './node_modules/antd';
-import classNames from './node_modules/classnames';
+import React, { PureComponent } from 'react';
+import { Dropdown } from 'antd';
+import classNames from 'classnames';
 import styles from './index.module.scss';
 
 export default class HeaderDropdown extends PureComponent {

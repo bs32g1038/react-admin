@@ -1,7 +1,7 @@
-import React, { Fragment } from './node_modules/react';
-import classNames from './node_modules/classnames';
+import React, { Fragment } from 'react';
+import classNames from 'classnames';
 import styles from './index.module.scss';
-import { Icon } from './node_modules/antd';
+import { Icon } from 'antd';
 
 const links = [
     {
