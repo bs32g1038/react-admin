@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from './node_modules/react';
 
 class GridContent extends PureComponent {
     render() {
