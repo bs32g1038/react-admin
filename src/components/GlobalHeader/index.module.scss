@@ -1,7 +1,7 @@
 .header {
     background-color: #fff;
     padding: 0;
-    box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
 }
 
 .right {
@@ -67,4 +67,13 @@
     font-size: 20px;
     cursor: pointer;
     transition: all .3s, padding 0s;
+}
+
+.github {
+    font-size: 18px;
+    + span {
+        vertical-align: middle;
+        margin-left: 5px;
+        color: #333;
+    }
 }

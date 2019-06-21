@@ -61,11 +61,12 @@ class GlobalHeader extends Component {
                         <Tooltip title="help">
                             <a
                                 target="_blank"
-                                href="https://pro.ant.design/docs/getting-started"
+                                href="https://github.com/bs32g1038/react-admin-kit"
                                 rel="noopener noreferrer"
                                 className={styles.action}
                             >
-                                <Icon type="question-circle-o" />
+                                <Icon type="github" className={styles.github}/>
+                                <span>Github</span>
                             </a>
                         </Tooltip>
                         <HeaderDropdown overlay={menu}>
