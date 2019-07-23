@@ -6,7 +6,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad221db6-f3d9-451a-a75a-0d30f389ea07/deploy-status)](https://app.netlify.com/sites/nostalgic-mirzakhani-0c279c/deploys) [![Total alerts](https://img.shields.io/lgtm/alerts/g/bs32g1038/react-admin-kit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bs32g1038/react-admin-kit/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/bs32g1038/react-admin-kit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bs32g1038/react-admin-kit/context:javascript) ![David](https://img.shields.io/david/dev/bs32g1038/react-admin-kit.svg)
 
-* Preview: http://pro.lizc.me
+* Preview: http://pro.lizc.net
 
 ## 功能特性
 * 模仿ant design pro界面，通过简单，易拓展的代码进行实现。
@@ -45,7 +45,7 @@
 
 ## 使用
 
-    $ git clone https://github.com/bs32g1038/react-admin.git
+    $ git clone https://github.com/bs32g1038/react-admin-kit.git
     $ npm install
     $ npm run dev  # visit http://localhost:3000
 
