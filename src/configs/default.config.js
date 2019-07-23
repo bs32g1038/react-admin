@@ -1,3 +1,3 @@
 export default {
-    title: 'Ant Design Admin'
-} 
+    title: 'React Admin Kit',
+};

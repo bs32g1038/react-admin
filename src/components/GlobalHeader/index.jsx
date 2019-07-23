@@ -7,20 +7,20 @@ const { Header } = Layout;
 
 class GlobalHeader extends Component {
     state = {
-        collapsed: false
-    }
+        collapsed: false,
+    };
     menuClick = e => {
         e.key === 'logout' && this.logout();
     };
     logout = () => {
         localStorage.removeItem('user');
-        this.props.history.push('/login')
+        this.props.history.push('/login');
     };
     toggle = () => {
         const { collapsed, onCollapse } = this.props;
         this.setState({
-            collapsed: !collapsed
-        })
+            collapsed: !collapsed,
+        });
         if (onCollapse) onCollapse(!collapsed);
     };
     render() {
@@ -46,11 +46,13 @@ class GlobalHeader extends Component {
             </Menu>
         );
         return (
-            <Header style={{
-                padding: '0px',
-                width: '100%',
-                zIndex: 2
-            }}>
+            <Header
+                style={{
+                    padding: '0px',
+                    width: '100%',
+                    zIndex: 2,
+                }}
+            >
                 <div className={styles.header}>
                     <Icon
                         className={styles.trigger}
@@ -65,7 +67,7 @@ class GlobalHeader extends Component {
                                 rel="noopener noreferrer"
                                 className={styles.action}
                             >
-                                <Icon type="github" className={styles.github}/>
+                                <Icon type="github" className={styles.github} />
                                 <span>Github</span>
                             </a>
                         </Tooltip>
@@ -74,7 +76,9 @@ class GlobalHeader extends Component {
                                 <Avatar
                                     size="small"
                                     className={styles.avatar}
-                                    src={'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png'}
+                                    src={
+                                        'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png'
+                                    }
                                     alt="avatar"
                                 />
                                 <span className={styles.name}>bs32g1038</span>
@@ -83,7 +87,7 @@ class GlobalHeader extends Component {
                     </div>
                 </div>
             </Header>
-        )
+        );
     }
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import Dashboard from '../pages/Dashboard'
-import BasicLayout from '../layouts/BasicLayout'
-import RouteView from '../layouts/RouteView'
-import { Redirect } from 'react-router-dom'
+import Dashboard from '../pages/Dashboard';
+import BasicLayout from '../layouts/BasicLayout';
+import RouteView from '../layouts/RouteView';
+import { Redirect } from 'react-router-dom';
 
 export default [
     {
@@ -12,9 +12,7 @@ export default [
             {
                 path: ['/', '/dashboard'],
                 exact: true,
-                component: () => (
-                    <Redirect push to='/dashboard/analysis' />
-                )
+                component: () => <Redirect push to="/dashboard/analysis" />,
             },
             {
                 path: '/dashboard',
@@ -24,11 +22,11 @@ export default [
                 routes: [
                     {
                         path: '/dashboard/analysis',
-                        title: '分析页',
+                        title: '工作台',
                         component: Dashboard,
-                    }
-                ]
-            }
-        ]
-    }
-]
+                    },
+                ],
+            },
+        ],
+    },
+];
